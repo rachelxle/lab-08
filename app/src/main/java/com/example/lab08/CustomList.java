@@ -10,7 +10,9 @@ public class CustomList {
         this.cities = new ArrayList<>();
     }
 
+
     public void addCity(City city) {
+        // adds city
         cities.add(city);
     }
 
