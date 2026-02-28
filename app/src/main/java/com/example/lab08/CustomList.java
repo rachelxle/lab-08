@@ -29,5 +29,13 @@ public class CustomList {
         return cities.size();
     }
 
+    public void deleteCity(City city) {
+        if (!cities.contains(city)) {
+            throw new IllegalArgumentException("City not in list");
+        }
+        cities.remove(city);
+    }
+
+
 
 }
